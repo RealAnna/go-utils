@@ -52,8 +52,6 @@ type EvaluationDetails struct {
 	IndicatorResults []*SLIEvaluationResult `json:"indicatorResults"`
 	ComparedEvents   []string               `json:"comparedEvents,omitempty"`
 	ComparedValues   [][]float64            `json:"comparedValues,omitempty"`
-	// GitCommit indicates the version which should be deployed
-	GitCommit string `json:"gitCommit"`
 }
 
 type SLIResult struct {
